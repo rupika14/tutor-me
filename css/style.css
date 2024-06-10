@@ -15,6 +15,8 @@
     
 }
 
+/* header section */
+
 ul{
     list-style: none;
     display: flex;
@@ -46,4 +48,45 @@ a{
 .logo{
     font-size: 24px;
     font-weight: bold;
+}
+
+/* hero section */
+
+.hero{
+    background-color: var(--bgcolor-dark);
+    display: flex;
+    gap: 200px;
+}
+
+.h-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 150px 0;
+    width: 600px;
+}
+
+h2{
+    color: var(--main-text);
+    font-size: 48px;
+}
+p{
+    font-size: 18px;
+    color: var(--link-text);
+}
+
+button{
+    background-color: var(--button-color);
+    color: var(--main-text);
+    width: 90px;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    
 }
