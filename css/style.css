@@ -13,6 +13,7 @@
     box-sizing: border-box;
     font-family:sans-serif;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 /* header section */
@@ -22,8 +23,7 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
-    scroll-behavior: smooth;
+    padding: 20px 0; 
 }
 
 a{
@@ -42,8 +42,10 @@ a{
 }
 
 .header{
+    position: fixed;
     background-color: var(--bgcolor-dark); 
-     
+    width: 100%;
+    
 }
 
 .logo{
@@ -63,7 +65,7 @@ a{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    padding: 150px 0;
+    padding: 250px 0;
     width: 600px;
 }
 
@@ -89,7 +91,6 @@ button{
 .image{
     display: flex;
     align-items: center;
-    
 }
 
 /* features section */
