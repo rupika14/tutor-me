@@ -1,6 +1,7 @@
 # TutorMe
 This is the landing page of a freelancing Tutor website that connects
 students and teachers
+Check it out [here](https://rupika14.github.io/tutor-me/)
 
 ## Tech Stack
 - HTML: Used for structuring the content of the website.
