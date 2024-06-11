@@ -167,3 +167,20 @@ h1{
 
 /* call to action */
 
+.cta{
+    padding: 50px 0;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 90px 0;
+}
+
+.box>button{
+    border: 2px solid #f9f8f9;
+}
