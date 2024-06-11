@@ -139,4 +139,31 @@ h1{
 }
 
 /* Review section */
+.review{
+    background-color: var(--link-text);
+    display: flex;
+    
+}
+
+.rev-sec{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.quote{
+    color: var(--bgcolor-dark);
+    font-size: 36px;
+    font-style:italic ;
+    
+}
+
+.name{
+    display: flex;
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* call to action */
 
